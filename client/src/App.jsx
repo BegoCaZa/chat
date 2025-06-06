@@ -4,7 +4,7 @@ const App = () => {
 	return (
 		<>
 			<GlobalStyles />
-			<h1>React</h1>;
+			<h1>react</h1>;
 		</>
 	);
 };

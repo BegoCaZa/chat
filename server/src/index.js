@@ -17,9 +17,7 @@ app.use(cors());
 app.use(express.json());
 
 //salida de conexión (se ven los mensajes conectandolo con eventos del cliente)
-
 let userCount = 0;
-
 io.on('connection', socket => {
   console.log('a user is connected');
   userCount++;
